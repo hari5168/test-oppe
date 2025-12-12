@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: ${{ secrets.GKE_CLUSTER }}
   GKE_ZONE: ${{ secrets.GKE_ZONE }}
   GAR_LOCATION: us-central1
-  REPO_NAME: docker-ml-repo
+  REPO_NAME: test-oppe
   IMAGE_NAME: iris-api
 
 jobs:

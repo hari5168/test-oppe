@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: iris-api
-          image: us-central1-docker.pkg.dev/secure-portal-472706-j8/docker-ml-repo/iris-api:latest
+          image: us-central1-docker.pkg.dev/secure-portal-472706-j8/test-oppe/iris-api:latest
           ports:
             - containerPort: 8080
 ---
