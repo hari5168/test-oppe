@@ -30,6 +30,7 @@ async def predict_species(features: IrisFeatures):
     return {"predicted_species": prediction}
 
 
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8100)
